@@ -1,5 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
+import { LButton } from 'layers-design-system'
+
 
 Vue.config.productionTip = false
 
