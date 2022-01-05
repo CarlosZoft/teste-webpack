@@ -1,5 +1,6 @@
 {
   "name": "teste-webpack",
+  "sideEffects": false,
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -16,10 +17,13 @@
     "webpack-bundle-analyzer": "^4.5.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.16.7",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
     "babel-eslint": "^10.1.0",
+    "babel-plugin-component": "^1.1.1",
+    "babel-plugin-dynamic-import-webpack": "^1.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
     "style-loader": "^3.3.1",
