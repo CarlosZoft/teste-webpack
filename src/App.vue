@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    ok123
-    <l-button type="primary">按钮</l-button>
+    <!-- <l-button type="primary">按钮</l-button> -->
+    <!-- <l-alert title="Informação!" type="info"> Mensagem normal :| </l-alert> -->
   </div>
 </template>
 

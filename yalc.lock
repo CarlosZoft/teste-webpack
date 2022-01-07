@@ -1,9 +1,0 @@
-{
-  "version": "v1",
-  "packages": {
-    "layers-design-system": {
-      "signature": "12b363fec47374aa31c7678d1599a134",
-      "file": true
-    }
-  }
-}
