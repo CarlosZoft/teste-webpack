@@ -4,11 +4,9 @@ const BundleAnalyzerPlugin =
 
 console.log(
   `
-
 NODE_ENV: `,
   process.env.NODE_ENV,
   `
-
 `
 );
 
@@ -22,13 +20,8 @@ module.exports = {
       filename: "bundle.js",
       path: path.resolve(__dirname, "dist"),
     },
-    optimization: {
-      sideEffects: false,
-    },
-    resolve: {
-      alias: {
-        vue$: "vue/dist/vue.esm.js",
-      },
+    module: {
+      rules: [{ sideEffects: false }],
     },
     plugins: [new BundleAnalyzerPlugin()],
   },
